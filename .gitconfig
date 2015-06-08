@@ -8,13 +8,13 @@
 [alias]
 	a = add
 	cl = clone
-    co = checkout
-    ci = commit -m
-    cia = commit -am
-    s = status
-    b = branch
-    r = rebase
-    f = fetch --all
-    ps = push
-    pl = pull
-    heroku = push heroku master
+	co = checkout
+	ci = commit -m
+	cia = commit -am
+	s = status
+	b = branch
+	r = rebase
+	f = fetch --all
+	ps = push
+	pl = pull
+	heroku = push heroku master
