@@ -15,4 +15,6 @@
     b = branch
     r = rebase
     f = fetch --all
+    ps = push
+    pl = pull
     heroku = push heroku master
