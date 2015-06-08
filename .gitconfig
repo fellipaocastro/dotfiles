@@ -9,6 +9,7 @@
 	a = add
 	cl = clone
 	co = checkout
+	cob = checkout -b
 	ci = commit -m
 	cia = commit -am
 	s = status
