@@ -1,0 +1,18 @@
+[user]
+	email = fellipe.castro@hotelurbano.com.br
+	name = Fellipe Castro
+[push]
+	default = simple
+[core]
+	editor = vim
+[alias]
+	a = add
+	cl = clone
+    co = checkout
+    ci = commit -m
+    cia = commit -am
+    s = status
+    b = branch
+    r = rebase
+    f = fetch --all
+    heroku = push heroku master
