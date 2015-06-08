@@ -18,4 +18,5 @@
 	f = fetch --all
 	ps = push
 	pl = pull
+	m = merge
 	heroku = push heroku master
