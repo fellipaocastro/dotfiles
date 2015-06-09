@@ -7,16 +7,17 @@
 	editor = vim
 [alias]
 	a = add
+	b = branch
+	ci = commit -m
+	cia = commit -am
 	cl = clone
 	co = checkout
 	cob = checkout -b
-	ci = commit -m
-	cia = commit -am
-	s = status
-	b = branch
-	r = rebase
+    d = diff
 	f = fetch --all
-	ps = push
-	pl = pull
-	m = merge
 	heroku = push heroku master
+	m = merge
+	pl = pull
+	ps = push
+	r = rebase
+	s = status
