@@ -13,7 +13,7 @@
 	cl = clone
 	co = checkout
 	cob = checkout -b
-    d = diff
+	d = diff
 	f = fetch --all
 	heroku = push heroku master
 	l = log
