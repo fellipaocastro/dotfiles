@@ -8,7 +8,7 @@
 [alias]
 	a = add
 	b = branch
-	ci = commit -m
+	ci = commit
 	cia = commit -am
 	cl = clone
 	co = checkout
