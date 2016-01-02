@@ -1,6 +1,6 @@
 cw() { cd $1; pwd; }
 
-cl() { cw $1; ll; }
+cll() { cw $1; ll; }
 
 mc () { mkdir $1; cw $1; }
 
