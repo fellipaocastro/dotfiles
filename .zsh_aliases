@@ -1,7 +1,6 @@
 alias ll='ls -lhGaF'
 alias df='df -h'
-alias ps='ps aux'
-alias psg='ps | grep -v grep | grep -i -e VSZ -e'
+alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
 alias mkdir='mkdir -p'
 alias rm='rm -rf'
 alias histg='history | grep'
