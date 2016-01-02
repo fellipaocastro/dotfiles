@@ -13,4 +13,3 @@ source  ~/.zsh_aliases
 
 mkdir ~/.config
 ln -s ~/dotfiles/.config ~/.config
-source  ~/.config/flake8
