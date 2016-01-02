@@ -1,4 +1,8 @@
 #!/bin/bash
+rm ~/.gitconfig
+rm ~/.zsh_aliases
+rm -rf ~/dotfiles
+
 git clone https://github.com/fellipecastro/dotfiles.git ~/dotfiles
 
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
