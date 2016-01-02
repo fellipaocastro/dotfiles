@@ -11,5 +11,4 @@ ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.zsh_aliases ~/.zsh_aliases
 source  ~/.zsh_aliases
 
-mkdir ~/.config
 ln -s ~/dotfiles/.config ~/.config
