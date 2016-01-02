@@ -1,0 +1,3 @@
+alias ll='ls -lGa'
+alias g='git'
+alias fr='git fetch && git rebase'
