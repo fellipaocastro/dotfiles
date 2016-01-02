@@ -1,1 +1,5 @@
-cs() { cd "$1" && ls; }
+cl() { cd $1; ll; }
+
+mc () { mkdir -p $1; cd $1; }
+
+fhere() { find . -name "*$1*"; }
