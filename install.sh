@@ -11,4 +11,5 @@ ln -s ~/dotfiles/.config ~/.config
 ln -s ~/dotfiles/.zsh_aliases ~/.zsh_aliases
 ln -s ~/dotfiles/.zsh_functions ~/.zsh_functions
 
+source  ~/.zsh_aliases
 source  ~/.zsh_functions
