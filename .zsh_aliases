@@ -1,3 +1,4 @@
+alias .='cd .'
 alias ll='ls -lhGaF'
 alias df='df -h'
 alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
@@ -5,6 +6,7 @@ alias mkdir='mkdir -p'
 alias rm='rm -rf'
 alias histg='history | grep'
 alias top='htop'
+alias wd='pwd'
 
 alias w='cd ~/Workspace/'
 alias u='source ~/updater.sh'
