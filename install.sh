@@ -7,8 +7,7 @@ rm -rf ~/dotfiles
 git clone https://github.com/fellipecastro/dotfiles.git ~/dotfiles
 
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
-
-ln -s ~/dotfiles/.zsh_aliases ~/.zsh_aliases
-source  ~/.zsh_aliases
-
 ln -s ~/dotfiles/.config ~/.config
+ln -s ~/dotfiles/.zsh_aliases ~/.zsh_aliases
+
+source  ~/.zsh_aliases
