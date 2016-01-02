@@ -1,5 +1,6 @@
 alias ll='ls -lGa'
 alias w='cd ~/Workspace/'
+alias u='source ~/updater.sh'
 alias g='git'
 
 alias a='git add'
