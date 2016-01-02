@@ -4,4 +4,8 @@ cw() { cd $1; pwd; }
 
 mc () { mkdir -p $1; cd $1; }
 
-fhere() { find . -name "*$1*"; }
+search() {
+  if [[ "$1" != "" ]]; then
+    sudo find . -name "*$1*"
+  fi
+}
