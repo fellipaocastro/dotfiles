@@ -19,6 +19,6 @@
 	l = log
 	m = merge
 	pl = pull
-	ps = push
+	pu = push
 	r = rebase
 	s = status
