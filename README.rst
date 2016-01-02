@@ -1,11 +1,11 @@
-gitconfig
-=========
+dotfiles
+========
 
-gitconfig
+dotfiles
 
 Setup
 -----
 
 .. code-block:: bash
 
-    $ wget -NP /tmp http://is.gd/axtIJe && source /tmp/axtIJe
+    $ wget -NP /tmp http://is.gd/ENw5aL && source /tmp/ENw5aL
