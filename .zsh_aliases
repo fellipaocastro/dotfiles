@@ -1,8 +1,17 @@
-alias ll='ls -lGa'
+alias ll='ls -lhGaF'
+alias df='df -h'
+alias ps='ps aux'
+alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
+alias mkdir='mkdir -p'
+alias rm='rm -rf'
+alias histg='history | grep'
+alias top='htop'
+alias myip='curl http://ipecho.net/plain; echo'
+
 alias w='cd ~/Workspace/'
 alias u='source ~/updater.sh'
-alias g='git'
 
+alias g='git'
 alias a='git add'
 alias b='git branch'
 alias ci='git commit'
@@ -21,3 +30,9 @@ alias pu='git push'
 alias r='git rebase'
 alias grm='git remove'
 alias s='git status'
+
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
+alias ..5="cd ../../../../.."
