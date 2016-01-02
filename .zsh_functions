@@ -1,5 +1,7 @@
 cl() { cd $1; ll; }
 
+cw() { cd $1; pwd; }
+
 mc () { mkdir -p $1; cd $1; }
 
 fhere() { find . -name "*$1*"; }
