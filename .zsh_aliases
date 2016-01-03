@@ -32,6 +32,7 @@ alias pu='git push'
 alias r='git rebase'
 alias grm='git remove'
 alias s='git status'
+alias st='git stash'
 
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
