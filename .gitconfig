@@ -1,21 +1,21 @@
 [push]
-	default = simple
+    default = simple
 [core]
-	editor = vim
+    editor = vim
 [alias]
-	a = add
-	b = branch
-	ci = commit
-	cia = commit -am
-	cl = clone
-	co = checkout
-	cob = checkout -b
-	d = diff
-	f = fetch --all
-	heroku = push heroku master
-	l = log
-	m = merge
-	pl = pull
-	pu = push
-	r = rebase
-	s = status
+    a = add
+    b = branch
+    ci = commit
+    cia = commit -am
+    cl = clone
+    co = checkout
+    cob = checkout -b
+    d = diff
+    f = fetch --all
+    heroku = push heroku master
+    l = log
+    m = merge
+    pl = pull
+    pu = push
+    r = rebase
+    s = status
