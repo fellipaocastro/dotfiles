@@ -3,6 +3,8 @@ rm -f ~/.gitconfig
 rm -f ~/.config
 rm -f ~/.zsh_aliases
 rm -f ~/.zsh_functions
+rm -f ~/.tmux.conf
+
 rm -rf ~/dotfiles
 
 git clone https://github.com/fellipecastro/dotfiles.git ~/dotfiles
