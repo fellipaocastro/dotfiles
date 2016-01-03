@@ -5,8 +5,8 @@ rm -f ~/.zsh_aliases
 rm -f ~/.zsh_functions
 rm -rf ~/dotfiles
 
-git config --global user.name $NAME
-git config --global user.email $EMAIL
+git config --global user.name "$NAME"
+git config --global user.email "$EMAIL"
 
 git clone https://github.com/fellipecastro/dotfiles.git ~/dotfiles
 
