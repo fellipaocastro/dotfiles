@@ -1,4 +1,4 @@
-alias .='cd .'
+alias c='cd .'
 alias ll='ls -lhGaF'
 alias df='df -h'
 alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
