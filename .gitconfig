@@ -20,3 +20,4 @@
     pu = push
     r = rebase
     s = status
+    st = stash
