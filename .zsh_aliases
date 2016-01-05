@@ -8,7 +8,7 @@ alias l='ls -lhGaF'
 alias ll='ls -lhGaF'
 alias mkdir='mkdir -p'
 alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
-alias rm='rm -rf'
+alias rm='rm -r'
 alias top='htop'
 alias wd='pwd'
 
