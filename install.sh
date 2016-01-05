@@ -8,7 +8,7 @@ rm -f ~/.tmux.conf
 rm -rf ~/dotfiles
 
 if [ ! -d "~/.config" ]; then
-  mkdir ~/.config
+    mkdir ~/.config
 fi
 
 git clone https://github.com/fellipecastro/dotfiles.git ~/dotfiles
