@@ -2,7 +2,9 @@ cw() { cd $1; pwd; }
 
 cll() { cw $1; ll; }
 
-mc () { mkdir $1; cw $1; }
+mc() { mkdir $1; cw $1; }
+
+gr() { git grep $1 | cat }
 
 search() {
   if [[ "$1" != "" ]]; then
