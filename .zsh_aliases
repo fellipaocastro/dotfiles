@@ -13,6 +13,8 @@ alias rm='rm -r'
 alias cp='cp -r'
 alias top='htop'
 alias wd='pwd'
+alias so='source'
+alias v='vim'
 
 alias ip='curl http://ipecho.net/plain; echo'
 alias u='source ~/updater.sh'
