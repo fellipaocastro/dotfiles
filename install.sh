@@ -7,7 +7,7 @@ rm -f ~/.tmux.conf
 
 rm -rf ~/dotfiles
 
-if [ ! -d "~/.config" ]; then
+if [ ! -d ~/.config ]; then
     mkdir ~/.config
 fi
 
