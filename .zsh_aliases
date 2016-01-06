@@ -18,6 +18,7 @@ alias v='vim'
 alias ca='cat'
 alias le='less'
 alias t='tail -F'
+alias count='ls | wc -l'
 
 alias ip='curl http://ipecho.net/plain; echo'
 alias u='source ~/updater.sh'
