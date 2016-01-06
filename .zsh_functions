@@ -4,8 +4,6 @@ cll() { cw $1; ll; }
 
 mc() { mkdir $1; cw $1; }
 
-gr() { git grep $1 | cat }
-
 search() {
   if [[ "$1" != "" ]]; then
     sudo find . -name "*$1*"
