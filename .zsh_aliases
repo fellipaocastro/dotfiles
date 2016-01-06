@@ -47,6 +47,7 @@ alias pu='git push'
 alias r='git rebase'
 alias s='git status'
 alias st='git stash'
+alias be='bundle exec'
 
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
