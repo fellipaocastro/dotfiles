@@ -12,6 +12,7 @@
     cob = checkout -b
     d = diff
     f = fetch --all
+    g = grep
     heroku = push heroku master
     l = log
     m = merge
