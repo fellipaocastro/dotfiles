@@ -22,6 +22,7 @@ alias count='ls -a | wc -l'
 alias q='exit'
 alias be='bundle exec'
 alias off='sudo shutdown -h now'
+alias rb='sudo shutdown -r now'
 
 alias cask='brew cask'
 
