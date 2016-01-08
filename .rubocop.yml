@@ -10,3 +10,6 @@ Style/Encoding:
 
 Metrics/LineLength:
   Max: 99
+
+Rails:
+  Enabled: true
