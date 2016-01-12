@@ -30,6 +30,7 @@ alias ru='ruby'
 alias rr='bundle exec rake routes'
 alias dm='bundle exec rake db:migrate'
 alias dc='bundle exec rake db:create'
+alias bi='bundle install'
 
 alias cask='brew cask'
 
