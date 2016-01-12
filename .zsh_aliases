@@ -28,6 +28,8 @@ alias py='python'
 alias py3='python3'
 alias ru='ruby'
 alias rr='bundle exec rake routes'
+alias dm='bundle exec rake db:migrate'
+alias dc='bundle exec rake db:create'
 
 alias cask='brew cask'
 
