@@ -35,6 +35,7 @@ alias dc='bundle exec rake db:create'
 alias bi='bundle install'
 alias rp='bundle exec rspec'
 alias rs='bundle exec rails server'
+alias rc='bundle exec rails console'
 
 alias cask='brew cask'
 
