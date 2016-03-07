@@ -39,6 +39,7 @@ alias bi='bundle update'
 alias rp='bundle exec rspec'
 alias rs='bundle exec rails server'
 alias rc='bundle exec rails console'
+alias rdc='bundle exec rails dbconsole'
 
 alias cask='brew cask'
 
