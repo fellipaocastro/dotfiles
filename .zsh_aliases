@@ -1,4 +1,5 @@
 alias c='cat'
+alias h='head'
 alias tr='tree'
 alias p='cd .'
 alias df='df -h'
