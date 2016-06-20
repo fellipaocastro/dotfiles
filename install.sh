@@ -23,4 +23,4 @@ ln -s ~/dotfiles/flake8 ~/.config/flake8
 
 source  ~/.zsh_aliases
 source  ~/.zsh_functions
-tmux source-file ~/.tmux.conf
+tmux start-server \; source-file ~/.tmux.conf
