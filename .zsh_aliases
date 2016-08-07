@@ -28,6 +28,7 @@ alias py='python'
 alias py3='python3'
 alias ru='ruby'
 alias z='source ~/.zshrc'
+alias rmq='rabbitmq-server'
 
 alias be='bundle exec'
 alias rk='bundle exec rake'
@@ -72,8 +73,6 @@ alias r='git rebase'
 alias s='git status'
 alias st='git stash'
 alias show='git show'
-
-alias rmq='rabbitmq-server'
 
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
