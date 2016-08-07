@@ -73,6 +73,8 @@ alias s='git status'
 alias st='git stash'
 alias show='git show'
 
+alias rmq='rabbitmq-server'
+
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 alias ..4='cd ../../../..'
