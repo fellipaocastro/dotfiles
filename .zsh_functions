@@ -9,3 +9,11 @@ search() {
     sudo find . -name "*$1*"
   fi
 }
+
+chmod_number() {
+  if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    stat --format '%a' $1
+  elif [[ "$OSTYPE" == "darwin"* ]]; then
+    stat -f "%OLp" $1
+  fi
+}
