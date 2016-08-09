@@ -73,6 +73,7 @@ alias r='git rebase'
 alias s='git status'
 alias st='git stash'
 alias show='git show'
+alias blame='git blame'
 
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
