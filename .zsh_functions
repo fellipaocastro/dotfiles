@@ -17,3 +17,5 @@ chmod_number() {
     stat -f "%OLp" $1
   fi
 }
+
+branch_delete(){ git branch -d $1; git push origin :$1 }
