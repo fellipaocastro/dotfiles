@@ -19,3 +19,5 @@ chmod_number() {
 }
 
 del_branch(){ git branch -d $1; git push origin :$1 }
+
+port(){ sudo netstat -tulpn | grep ":$1" }
