@@ -1,8 +1,8 @@
-cw() { cd $1; pwd; }
+cw() { cd $1; pwd }
 
-cll() { cw $1; ll; }
+cll() { cw $1; ll }
 
-mc() { mkdir $1; cw $1; }
+mc() { mkdir $1; cw $1 }
 
 search() {
   if [[ "$1" != "" ]]; then
@@ -21,3 +21,5 @@ chmod_number() {
 del_branch(){ git branch -d $1; git push origin :$1 }
 
 port(){ sudo netstat -tulpn | grep ":$1" }
+
+redo() { bundle exec rake db:migrate:redo VERSION=$1 }
