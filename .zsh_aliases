@@ -30,6 +30,7 @@ alias ru='ruby'
 alias z='source ~/.zshrc'
 alias rmq='rabbitmq-server'
 alias ww='workon'
+alias to='touch'
 
 alias be='bundle exec'
 alias rk='bundle exec rake'
