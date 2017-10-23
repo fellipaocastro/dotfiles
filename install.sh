@@ -1,5 +1,6 @@
 #!/bin/bash
 rm -f ~/.gitconfig
+rm -f ~/.gitignore_global
 rm -f ~/.zsh_aliases
 rm -f ~/.zsh_functions
 rm -f ~/.tmux.conf
@@ -15,6 +16,7 @@ fi
 git clone https://github.com/fellipecastro/dotfiles.git ~/dotfiles
 
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/dotfiles/.zsh_aliases ~/.zsh_aliases
 ln -s ~/dotfiles/.zsh_functions ~/.zsh_functions
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
