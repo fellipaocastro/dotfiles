@@ -34,6 +34,7 @@ alias rmq='rabbitmq-server'
 alias ww='workon'
 alias to='touch'
 alias dc='docker-compose'
+alias dps='docker ps'
 
 alias be='bundle exec'
 alias rk='bundle exec rake'
