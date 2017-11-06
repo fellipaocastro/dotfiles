@@ -35,6 +35,7 @@ alias ww='workon'
 alias to='touch'
 alias dc='docker-compose'
 alias dps='docker ps'
+alias dexec='docker exec -it'
 
 alias be='bundle exec'
 alias rk='bundle exec rake'
