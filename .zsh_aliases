@@ -36,7 +36,7 @@ alias to='touch'
 alias dc='docker-compose'
 alias dps='docker ps'
 alias dexec='docker exec -it'
-alias ninstall='npm install'
+alias ni='npm install'
 
 alias be='bundle exec'
 alias rk='bundle exec rake'
