@@ -95,4 +95,4 @@ alias ..3='cd ../../..'
 alias ..4='cd ../../../..'
 alias ..5='cd ../../../../..'
 
-alias s3='python2 ~/Workspace/getcredentials.py'
+alias s3='python2 ~/Workspace/getcredentials.py && cat ~/Workspace/.config/credentials'
