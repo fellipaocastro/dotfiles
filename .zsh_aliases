@@ -94,5 +94,3 @@ alias ..2='cd ../..'
 alias ..3='cd ../../..'
 alias ..4='cd ../../../..'
 alias ..5='cd ../../../../..'
-
-alias s3='cd ~/Workspace && python2 getcredentials.py getaws --account team-frontend/ADFS-Admin && cat ~/Workspace/.config/credentials && cd -'
