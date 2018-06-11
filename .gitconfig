@@ -23,3 +23,6 @@
     r = rebase
     s = status
     st = stash
+[user]
+    name = Fellipe Castro
+    email = contact@fellipecastro.com
