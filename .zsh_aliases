@@ -38,6 +38,7 @@ alias dps='docker ps'
 alias dexec='docker exec -it'
 alias ni='npm install'
 alias ns='npm start'
+alias lint='npm run lint'
 
 alias be='bundle exec'
 alias rk='bundle exec rake'
