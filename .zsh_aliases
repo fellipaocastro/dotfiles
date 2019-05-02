@@ -40,6 +40,7 @@ alias ni='npm install'
 alias ns='npm start'
 alias lint='npm run eslint'
 alias sass='npm run sass-lint'
+alias package='sudo dpkg -i'
 
 alias be='bundle exec'
 alias rk='bundle exec rake'
