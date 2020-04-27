@@ -94,6 +94,8 @@ alias show='git show'
 alias blame='git blame'
 alias branch='git rev-parse --abbrev-ref HEAD'
 alias tag='git tag'
+alias develop='git checkout develop'
+alias master='git checkout master'
 
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
