@@ -26,3 +26,5 @@
 [user]
     name = Fellipe Castro
     email = fellipao.castro@gmail.com
+[credential]
+    helper = store
