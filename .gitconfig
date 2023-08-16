@@ -28,3 +28,5 @@
     email = fellipao.castro@gmail.com
 [credential]
     helper = store
+[http]
+    sslverify = false
