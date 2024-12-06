@@ -1,3 +1,4 @@
+alias grep='grep -Rin'
 alias c='cat'
 alias h='head'
 alias tr='tree'
