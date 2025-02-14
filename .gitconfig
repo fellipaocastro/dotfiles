@@ -24,7 +24,7 @@
     s = status
     st = stash
 [user]
-    name = Fellipe Castro
+    name = Fellipão Castro
     email = fellipao.castro@gmail.com
 [credential]
     helper = store
